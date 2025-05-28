@@ -1,3 +1,4 @@
+import time #USE BREAKS AND STUFF
 
 authors = ["Shyla", "Name"]
 
@@ -5,20 +6,24 @@ authors = ["Shyla", "Name"]
 
 def noun(end):
     return (input("Noun:" + end)) #end can be " " or "ing " etc
-def verb(end)
+def verb(end):
     return (input("Verb:" + end))
 def adjective(end):
     return (input("Adjective:" + end))
 def adverb(end):
     return (input("Adverb:" + end))
 
+def ending():
+    input("Blanks filled in by ")
+    print("")
+
+
 #stories
 def story1():
     global authors
 
     print(f"story story story\n\nStory written by {authors[0]}\nProgram written by Shyla")
-    input("Blanks filled in by ")
-
+    ending()
 
 ###############
 
@@ -33,7 +38,7 @@ Adjective: Describes noun (ex. 'cool)
 Verb: Describes action (ex. 'run')
 Adverb: Describes adjective, verb, or other adverb (ex. very [as in 'very tall'])
 Preposition: Describes relation or position (ex. 'after)
-Onomatopoeia: Directly imitates sound (ex. 'zap')""")
+Onomatopoeia: Directly imitates sound (ex. 'zap')""") #definitions (parts of speech, etc)
 
 print("""Which story would you like to complete?
 
